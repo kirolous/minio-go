@@ -51,7 +51,7 @@ const unsignedPayload = "UNSIGNED-PAYLOAD"
 const unsignedPayloadTrailer = "STREAMING-UNSIGNED-PAYLOAD-TRAILER"
 
 // Total number of parallel workers used for multipart operation.
-const totalWorkers = 4
+const totalWorkers = 1024
 
 // Signature related constants.
 const (
